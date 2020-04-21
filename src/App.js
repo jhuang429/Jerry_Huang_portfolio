@@ -9,30 +9,53 @@ import {
   Route,
 } from "react-router-dom";
 import Nav from './Component/Nav';
+import Footer from './Component/Footer';
 import Resume from './Screen/Resume';
 import AboutMe from './Screen/AboutMe';
 import Education from './Screen/Education'
+import Jumbotron from './Component/Jumbotron'
+import Experience from './Screen/Experience';
+import Projects from './Screen/Projects';
 
 
 
 function App() {
   return (
     <Router>
+
       <Nav />
-      <Switch>
+
+      <Switch style={{ display: "flex", justifyContent: "center" }}>
+
+        <Route exact path="/experience">
+          <Experience />
+        </Route>
+
         <Route exact path="/resume">
           <Resume />
         </Route>
+
         <Route exact path="/about">
           <AboutMe />
         </Route>
+
         <Route exact path="/education">
           <Education />
         </Route>
+        
+        <Route path="/projects">
+          <Projects />
+        </Route>
+
         <Route path="/">
           <Main />
         </Route>
+
+
       </Switch>
+
+      <Footer />
+
     </Router>
   );
 }

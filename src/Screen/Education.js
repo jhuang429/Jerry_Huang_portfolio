@@ -1,16 +1,13 @@
 import React from 'react'
-import Footer from '../Component/Footer'
+import Jumbotron from '../Component/Jumbotron'
 
 function Education() {
     return (
         <div>
-            <section className="jumbotron">
-                <div className='container'>
-                    <div className="row">
-                        <h2>Education</h2>
-                    </div>
-                </div>
-            </section>
+            <div>
+                <Jumbotron title="Education" />
+            </div>
+    )
 
             <section className="container">
                 <div className="row">
@@ -28,15 +25,15 @@ function Education() {
                     </div>
 
                     <div class='col-sm-6'>
-        <p class="font-weight-bold">
-          Flatiron School
-          <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/FS_wiki.png" class="portrait"/ >
-          <ul>
-            <li>Jan - May 2019</li>
-            <li>Software Engineering Program</li>
-          </ul>
-        </p>
-      </div>
+                        <p class="font-weight-bold">
+                            Flatiron School
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/FS_wiki.png" class="portrait" />
+                            <ul>
+                                <li>Jan - May 2019</li>
+                                <li>Software Engineering Program</li>
+                            </ul>
+                        </p>
+                    </div>
                 </div>
             </section>
 

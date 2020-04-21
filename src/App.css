@@ -31,22 +31,23 @@ a {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/personal_portfolio/background.jpeg');
+  background-image: url('https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+  background-position: center;
   background-size: cover;
   color: #ffffff;
   height: 400px;
 }
 
 .jumbotron h2 {
-  font-size: 60px;
+  font-size: 70px;
   font-weight: 700;
   margin: 0;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .jumbotron h3 {
   margin: 0 0 20px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 section .row img {

@@ -9,10 +9,10 @@ function Nav() {
           </h1>
         <nav className="sm-6 text-right">
           <a href="/">Home</a>
-          <a href="about.html">Experience</a>
-          <a href="education.html">Education</a>
-          <a href="experience.html">Resume</a>
-          <a href="experience.html">Projects</a>
+          <a href="/experience">Experience</a>
+          <a href="/education">Education</a>
+          <a href="/resume">Resume</a>
+          <a href="/projects">Projects</a>
         </nav>
       </div>
 

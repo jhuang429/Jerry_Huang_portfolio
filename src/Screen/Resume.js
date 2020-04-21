@@ -1,22 +1,18 @@
 import React from 'react'
-import Footer from '../Component/Footer'
+import Jumbotron from '../Component/Jumbotron'
+import Jerry_Huang_Resume from "../assets/Jerry_Huang_Resume.pdf"
+
 
 function Resume() {
-    return(
+    return (
         <div>
-        <section className="jumbotron">
-        <div className='container'>
-          <div className="row">
-            <h2>Developer & Photographer</h2>
-        </div>
-           <div className="row">
-          <h3>Javascript, Ruby & Python</h3>
+            <Jumbotron title="Resume" />
+        <div style={{display:"flex", flexDirection: "column", alignItems:"center"}}>
+            {Jerry_Huang_Resume && <object data={Jerry_Huang_Resume} style={{width:"70%", height:1000}}/>}
         </div>
         </div>
-      </section>
-      <Footer/>
-      </div>
     )
 }
 
 export default Resume 
+

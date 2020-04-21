@@ -1,21 +1,12 @@
 import React from 'react'
 import Footer from '../Component/Footer'
+import Jumbotron from '../Component/Jumbotron'
 
 function Projects() {
-    return(
+    return (
         <div>
-        <section className="jumbotron">
-        <div className='container'>
-          <div className="row">
-            <h2>Developer & Photographer</h2>
+            <Jumbotron title="Projects"/>
         </div>
-           <div className="row">
-          <h3>Javascript, Ruby & Python</h3>
-        </div>
-        </div>
-      </section>
-      <Footer/>
-      </div>
     )
 }
 
