@@ -2,7 +2,6 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Main from './Screen/Main'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,42 +18,47 @@ import Projects from './Screen/Projects';
 
 
 
+
+
 function App() {
   return (
     <Router>
-
-      <Nav />
-
-      <Switch style={{ display: "flex", justifyContent: "center" }}>
-
-        <Route exact path="/experience">
-          <Experience />
-        </Route>
-
-        <Route exact path="/resume">
-          <Resume />
-        </Route>
-
-        <Route exact path="/about">
-          <AboutMe />
-        </Route>
-
-        <Route exact path="/education">
-          <Education />
-        </Route>
-        
-        <Route path="/projects">
-          <Projects />
-        </Route>
-
-        <Route path="/">
-          <Main />
-        </Route>
+      <div className="container">
 
 
-      </Switch>
+        <Nav />
 
-      <Footer />
+        <div className = "main">
+          <Switch>
+            <Route exact path="/about">
+              <AboutMe />
+            </Route>
+            {/* <Route exact path="/work">
+              <Experience />
+            </Route>
+
+
+
+            <Route exact path="/education">
+              <Education />
+            </Route> */}
+
+            <Route path="/projects">
+              <Projects />
+            </Route>
+
+            <Route exact path="/resume">
+              <Resume />
+            </Route>
+            <Route path="/">
+              <Main />
+            </Route>
+
+
+          </Switch>
+        </div>
+
+      </div>
 
     </Router>
   );

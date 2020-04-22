@@ -1,8 +1,10 @@
 {
   "name": "jerry_huang_portfolio",
   "version": "0.1.0",
+  "homepage": "http://jerryhuang.dev",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.9.11",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.4.1",
@@ -11,7 +13,8 @@
     "react-dom": "^16.13.1",
     "react-pdf": "^4.1.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-skeleton-css": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

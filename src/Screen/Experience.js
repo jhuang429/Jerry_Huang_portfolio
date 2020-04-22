@@ -4,9 +4,9 @@ import Jumbotron from '../Component/Jumbotron'
 
 function Experience() {
     return(
-        <div>
-<Jumbotron title="Experience" />
-      </div>
+    <div className="content">
+      <h1 class="title">Work</h1>
+    </div>
     )
 }
 
