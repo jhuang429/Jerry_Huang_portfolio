@@ -24,36 +24,103 @@ function Projects() {
   return (
     <div className="content">
       <h1 class="title">Projects</h1>
-      <Card className={classes.root}>
-        <CardActionArea>
-          <CardMedia
-            className={classes.media}
-            image={require('../assets/collo.png')}
-            title="Collo App Screenshot"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-              Collo
-          </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-              Collo is a mobile application built with React Native front end and Ruby on Rails backend. Collo is an image and data organizer allowing users to take photos on their phones and write notes on the photos. Images are organized into collections where they can be easily searched.
-          </Typography>
-          </CardContent>
-        </CardActionArea>
-        <CardActions>
-            <Button size="small" color="primary">
-          <a href="https://github.com/jhuang429/Collo_frontend" target="_blank" style ={{ "text-decoration": "none"}}>
-              GitHub
-          </a>
-        </Button>
-          <Button size="small" color="primary">
-          <a href="https://youtu.be/ARlC8JsT5sA" target="_blank" style ={{ "text-decoration": "none"}}>
-              Demo
-          </a>
-        </Button>
-        </CardActions>
-      </Card>
+      <div class="project_container">
 
+        <div className="project_card">
+          <Card className={classes.root}>
+            <CardActionArea>
+              <CardMedia
+                className={classes.media}
+                image={require('../assets/collo.png')}
+                title="Collo App Screenshot"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="h2">
+                  Collo
+          </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  Collo is a mobile application built with React Native front end and Ruby on Rails backend. Collo is an image and data organizer allowing users to take photos on their phones and write notes on the photos. Images are organized into collections where they can be easily searched.
+          </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                <a href="https://github.com/jhuang429/Collo_frontend" target="_blank" style={{ "text-decoration": "none" }}>
+                  GitHub
+          </a>
+              </Button>
+              <Button size="small" color="primary">
+                <a href="https://youtu.be/ARlC8JsT5sA" target="_blank" style={{ "text-decoration": "none" }}>
+                  Demo
+          </a>
+              </Button>
+            </CardActions>
+          </Card>
+        </div>
+
+        <div className="project_card">
+          <Card className={classes.root}>
+            <CardActionArea>
+              <CardMedia
+                className={classes.media}
+                image={require('../assets/collo.png')}
+                title="Collo App Screenshot"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="h2">
+                  WheelyGoodFood
+          </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                    WheelyGoodFood takes the stress out of picking a lunch spot. Utilizing Yelp and Google Maps Api, WheelyGood foods 
+          </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                <a href="https://github.com/jhuang429/Collo_frontend" target="_blank" style={{ "text-decoration": "none" }}>
+                  GitHub
+          </a>
+              </Button>
+              <Button size="small" color="primary">
+                <a href="https://youtu.be/ARlC8JsT5sA" target="_blank" style={{ "text-decoration": "none" }}>
+                  Demo
+          </a>
+              </Button>
+            </CardActions>
+          </Card>
+        </div>
+        <div className="project_card">
+          <Card className={classes.root}>
+            <CardActionArea>
+              <CardMedia
+                className={classes.media}
+                image={require('../assets/collo.png')}
+                title="Collo App Screenshot"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="h2">
+                  Travel Frog
+          </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  Collo is a mobile application built with React Native front end and Ruby on Rails backend. Collo is an image and data organizer allowing users to take photos on their phones and write notes on the photos. Images are organized into collections where they can be easily searched.
+          </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                <a href="https://github.com/jhuang429/Collo_frontend" target="_blank" style={{ "text-decoration": "none" }}>
+                  GitHub
+          </a>
+              </Button>
+              <Button size="small" color="primary">
+                <a href="https://youtu.be/ARlC8JsT5sA" target="_blank" style={{ "text-decoration": "none" }}>
+                  Demo
+          </a>
+              </Button>
+            </CardActions>
+          </Card>
+        </div>
+      </div>
     </div>
   )
 }
