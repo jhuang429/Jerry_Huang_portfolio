@@ -21,7 +21,7 @@ function Main() {
                 <span>|</span>
                 <a href="https://github.com/jhuang429" target="_blank" className="nav-item">GitHub</a>
                 <span>|</span>
-                <a href="https://medium.com/" target="_blank" className="nav-item">Medium</a>
+                <a href="https://medium.com/@jhuang9240" target="_blank" className="nav-item">Medium</a>
                 <span>|</span>
             </div>
         </div>
