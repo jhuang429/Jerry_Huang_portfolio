@@ -63,7 +63,7 @@ function Projects() {
             <CardActionArea>
               <CardMedia
                 className={classes.media}
-                image={require('../assets/collo.png')}
+                image={require('../assets/wheelygoodfood.png')}
                 title="Collo App Screenshot"
               />
               <CardContent>
@@ -71,7 +71,7 @@ function Projects() {
                   WheelyGoodFood
           </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                    WheelyGoodFood takes the stress out of picking a lunch spot. Utilizing Yelp and Google Maps Api, WheelyGood foods 
+                    WheelyGoodFood takes the stress out of picking a lunch spot. Utilizing Yelp and Google Maps Api, WheelyGood foods provides restaurant information, ratings and directions all on one page. Spinning a wheel of fortune wheel adds to the fun! WheelyGoodFood is created with vanilla Javascript
           </Typography>
               </CardContent>
             </CardActionArea>
@@ -94,7 +94,7 @@ function Projects() {
             <CardActionArea>
               <CardMedia
                 className={classes.media}
-                image={require('../assets/collo.png')}
+                image={require('../assets/travelfrog.png')}
                 title="Collo App Screenshot"
               />
               <CardContent>
@@ -102,18 +102,18 @@ function Projects() {
                   Travel Frog
           </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Collo is a mobile application built with React Native front end and Ruby on Rails backend. Collo is an image and data organizer allowing users to take photos on their phones and write notes on the photos. Images are organized into collections where they can be easily searched.
+                Travel Frog is a mock social media website created with Ruby on Rails. The website allows inspires users to travel by browsing travel destinations. Users can find helpful travel information such as a short city bio, attractions, current weather, airport, current airfare, and other users' comments.
           </Typography>
               </CardContent>
             </CardActionArea>
             <CardActions>
               <Button size="small" color="primary">
-                <a href="https://github.com/jhuang429/Collo_frontend" target="_blank" style={{ "text-decoration": "none" }}>
+                <a href="https://github.com/jhuang429/travelfrog" target="_blank" style={{ "text-decoration": "none" }}>
                   GitHub
           </a>
               </Button>
               <Button size="small" color="primary">
-                <a href="https://youtu.be/ARlC8JsT5sA" target="_blank" style={{ "text-decoration": "none" }}>
+                <a href="https://travelfrog.herokuapp.com/" target="_blank" style={{ "text-decoration": "none" }}>
                   Demo
           </a>
               </Button>
