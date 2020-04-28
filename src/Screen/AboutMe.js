@@ -6,8 +6,8 @@ function AboutMe() {
     <div className="content">
       <h1 class="title">About</h1>
       <div style={{display:"flex", flexDirection:"row"}}>
-        <p>
-          I graduated from Syracuse University in the Spring of 2013 with a dual major in Accounting and Finance. After working in multiple roles in finance, operations, and systems, I have a well rounded experience in collaberating with multiple teams
+        <p style={{fontSize:24}}>
+        In the spring of 2013, I graduated from Syracuse University with a dual Major in Accounting and Finance. After spending six years leading multiple technology initiatives at both Macy's and Bed, Bath and beyond, I enrolled in Flatiron School to gain a deeper understanding of code. 
 
       </p>
 

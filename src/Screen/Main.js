@@ -17,7 +17,7 @@ function Main() {
                 <span>|</span>
                 <a href="mailto:jhuang9240@gmail.com" className="nav-item">Email</a>
                 <span>|</span>
-                <a href="https://www.linkedin.com/in/jerry-huang-a0316927/" target="_blank" className="nav-item">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/jhuang9240/" target="_blank" className="nav-item">LinkedIn</a>
                 <span>|</span>
                 <a href="https://github.com/jhuang429" target="_blank" className="nav-item">GitHub</a>
                 <span>|</span>

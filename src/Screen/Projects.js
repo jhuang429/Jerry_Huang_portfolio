@@ -77,12 +77,12 @@ function Projects() {
             </CardActionArea>
             <CardActions>
               <Button size="small" color="primary">
-                <a href="https://github.com/jhuang429/Collo_frontend" target="_blank" style={{ "text-decoration": "none" }}>
+                <a href="https://github.com/jhuang429/WheelyGoodFood-frontend" target="_blank" style={{ "text-decoration": "none" }}>
                   GitHub
           </a>
               </Button>
               <Button size="small" color="primary">
-                <a href="https://youtu.be/ARlC8JsT5sA" target="_blank" style={{ "text-decoration": "none" }}>
+                <a href="https://wheelygoodfood.herokuapp.com/" target="_blank" style={{ "text-decoration": "none" }}>
                   Demo
           </a>
               </Button>
