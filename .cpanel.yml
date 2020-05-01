@@ -1,4 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/jerrirfv/public_html/
-    - / -R build $DEPLOYPATH
+    - /build/ index.html $DEPLOYPATH
