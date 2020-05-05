@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Main from './Screen/Main'
 import {
@@ -8,12 +7,8 @@ import {
   Route,
 } from "react-router-dom";
 import Nav from './Component/Nav';
-import Footer from './Component/Footer';
 import Resume from './Screen/Resume';
 import AboutMe from './Screen/AboutMe';
-import Education from './Screen/Education'
-import Jumbotron from './Component/Jumbotron'
-import Experience from './Screen/Experience';
 import Projects from './Screen/Projects';
 
 
