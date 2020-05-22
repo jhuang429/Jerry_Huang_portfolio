@@ -22,7 +22,7 @@ function Projects() {
   const classes = useStyles();
 
   return (
-    <div className="content">
+    <div className="main">
       <h1 class="title">Projects</h1>
       <div class="project_container">
 

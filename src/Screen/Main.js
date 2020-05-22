@@ -9,7 +9,7 @@ function Main() {
     return (
 
         <div className="main">
-            <div style={{display:"flex", alignItems:"center", marginTop: "5%"}}>
+            <div className="content">
             <h1 class="splash">Jerry Huang is a full stack web developer based in the New York Metro area</h1>
             <img src={require('../assets/headshot.png')} />
             </div>

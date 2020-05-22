@@ -12,18 +12,17 @@ import AboutMe from './Screen/AboutMe';
 import Projects from './Screen/Projects';
 
 
-
-
-
 function App() {
   return (
     <Router>
       <div className="container">
 
 
-        <Nav />
+        <div>
+          <Nav />
+        </div>
 
-        <div className = "main">
+        <div className="main">
           <Switch>
             <Route exact path="/about">
               <AboutMe />
@@ -31,27 +30,22 @@ function App() {
             {/* <Route exact path="/work">
               <Experience />
             </Route>
-
-
-
             <Route exact path="/education">
               <Education />
             </Route> */}
-
             <Route path="/projects">
               <Projects />
             </Route>
-
             <Route exact path="/resume">
               <Resume />
             </Route>
             <Route path="/">
               <Main />
             </Route>
-
-
           </Switch>
         </div>
+
+        <div></div>
 
       </div>
 

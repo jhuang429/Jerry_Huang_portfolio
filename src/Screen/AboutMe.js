@@ -3,9 +3,9 @@ import Jumbotron from '../Component/Jumbotron'
 
 function AboutMe() {
   return (
-    <div className="content">
+    <div >
       <h1 class="title">About</h1>
-      <div style={{ display: "flex", flexDirection: "row" }}>
+      <div className="content">
         <div style={{ fontSize: 21, flex: 3 }}>
           <p>I am a Full Stack Software Developer with a significant experience leading multiple teams and project management.</p>
 
@@ -34,7 +34,7 @@ function AboutMe() {
         </div>
 
 
-        <img style={{ height: "25%" }} src={require('../assets/headshot.png')} />
+        <img src={require('../assets/headshot.png')} />
       </div>
     </div >
   )

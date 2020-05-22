@@ -5,10 +5,10 @@ import Jerry_Huang_Resume from "../assets/Jerry_Huang_Resume.pdf"
 
 function Resume() {
     return (
-        <div className="content">
+        <div>
             <h1 class="title">Resume</h1>
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                {Jerry_Huang_Resume && <object data={Jerry_Huang_Resume} style={{ width: "70%", height: 1000 }} />}
+            <div>
+                {Jerry_Huang_Resume && <object data={Jerry_Huang_Resume} style={{ width: "50em", height: "50em" }} />}
             </div>
         </div>
     )
