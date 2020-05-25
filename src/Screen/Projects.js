@@ -82,7 +82,7 @@ function Projects() {
           </a>
               </Button>
               <Button size="small" color="primary">
-                <a href="http://www.wheelygoodfood.com" target="_blank" style={{ "text-decoration": "none" }}>
+                <a href="http://wheelygoodfood.com" target="_blank" style={{ "text-decoration": "none" }}>
                   Demo
           </a>
               </Button>

@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3023f13.chunk.css",
-    "main.js": "/static/js/main.5dc9fed5.chunk.js",
-    "main.js.map": "/static/js/main.5dc9fed5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e4516502.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e4516502.js.map",
-    "static/js/2.cf8bbd2f.chunk.js": "/static/js/2.cf8bbd2f.chunk.js",
-    "static/js/2.cf8bbd2f.chunk.js.map": "/static/js/2.cf8bbd2f.chunk.js.map",
+    "main.css": "/static/css/main.2ffd8568.chunk.css",
+    "main.js": "/static/js/main.bb6f7cb0.chunk.js",
+    "main.js.map": "/static/js/main.bb6f7cb0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ad04c4d6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ad04c4d6.js.map",
+    "static/js/2.43a784d4.chunk.js": "/static/js/2.43a784d4.chunk.js",
+    "static/js/2.43a784d4.chunk.js.map": "/static/js/2.43a784d4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.329c294fe5260a7a3d6eccf83a716099.js": "/precache-manifest.329c294fe5260a7a3d6eccf83a716099.js",
+    "precache-manifest.5eae51a789dc902f9b50fe0c4ae0105a.js": "/precache-manifest.5eae51a789dc902f9b50fe0c4ae0105a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e3023f13.chunk.css.map": "/static/css/main.e3023f13.chunk.css.map",
-    "static/js/2.cf8bbd2f.chunk.js.LICENSE.txt": "/static/js/2.cf8bbd2f.chunk.js.LICENSE.txt",
+    "static/css/main.2ffd8568.chunk.css.map": "/static/css/main.2ffd8568.chunk.css.map",
+    "static/js/2.43a784d4.chunk.js.LICENSE.txt": "/static/js/2.43a784d4.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/HVD Fonts - BrandonText-Medium.c336ddf7.woff",
-    "static/media/Jerry_Huang_Resume.pdf": "/static/media/Jerry_Huang_Resume.fec1a7d5.pdf",
+    "static/media/Jerry_Huang_Resume.pdf": "/static/media/Jerry_Huang_Resume.67023126.pdf",
     "static/media/collo.png": "/static/media/collo.d07609a6.png",
     "static/media/headshot.png": "/static/media/headshot.49c2b5b9.png",
     "static/media/travelfrog.png": "/static/media/travelfrog.a73b4528.png",
     "static/media/wheelygoodfood.png": "/static/media/wheelygoodfood.10ce4b45.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e4516502.js",
-    "static/js/2.cf8bbd2f.chunk.js",
-    "static/css/main.e3023f13.chunk.css",
-    "static/js/main.5dc9fed5.chunk.js"
+    "static/js/runtime-main.ad04c4d6.js",
+    "static/js/2.43a784d4.chunk.js",
+    "static/css/main.2ffd8568.chunk.css",
+    "static/js/main.bb6f7cb0.chunk.js"
   ]
 }
