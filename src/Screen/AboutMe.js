@@ -28,7 +28,6 @@ function AboutMe() {
             <li>CSS</li>
             <li>SQL</li>
             <li>Postgres</li>
-            <li>Postgres</li>
             <li>Git</li>
           </ul>
         </div>
